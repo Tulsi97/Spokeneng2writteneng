@@ -10,8 +10,11 @@ For example, "two dollars" should be converted to $2. Abbreviations spoken as "C
 -- and module can also be installed by using command : $ python setup.py
 
 -- Then type python on the terminal
+
       >>python 
+      
          >>from spoken2written import sp2wr
+	 
 	       >>sp2wr.convert_sp_to_wr()
          
          [IN] Enter Your paragraph of spoken english:
